@@ -1,0 +1,10 @@
+{
+  "description": "Collects detailed user feedback on material properties via interactive sliders, text, links, and audio, enabling rich, multimodal research data submission.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}

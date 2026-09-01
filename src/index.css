@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600&display=swap');
+@import 'tailwindcss';
+
+/* forpeople Season Sans:Regular — resolved via figma fonts resolve */
+@font-face {
+  font-family: 'forpeople Season Sans:Regular';
+  src: url('/fonts/forpeople_Season_Sans-Regular.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 400;
+}
+
+/* Season Sans-TRIAL:Regular is blocked (not_found); DM Sans used as fallback */
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Hide scrollbar by default, show on scroll */
+::-webkit-scrollbar {
+  width: 0;
+  background: transparent;
+}
+
+body:hover::-webkit-scrollbar {
+  width: 4px;
+}
+
+body:hover::-webkit-scrollbar-thumb {
+  background: #e1e1e1;
+  border-radius: 2px;
+}
+
+/* Slider track styling across browsers */
+input[type='range'] {
+  -webkit-appearance: none;
+  appearance: none;
+}
